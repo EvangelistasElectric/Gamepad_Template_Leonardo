@@ -11,6 +11,15 @@ This project turns an **Arduino Leonardo** (ATmega32U4) into a **custom USB HID 
 Designed for **simulator and custom control setups** where you need full flexibility over button mapping and axis configuration.
 
 ---
+🛡️ License
+This project is licensed under the Evangelista's Electric Non-Commercial Open Source License (EENOSL). Please see LICENSE.txt for full terms.
+
+
+Credits
+Arduino Joystick Library by Matthew Heironimus
+
+Project wiring and HID mapping by Matthew Evangelista
+---
 
 ## Features
 
@@ -89,6 +98,33 @@ Designed for **simulator and custom control setups** where you need full flexibi
 - Open Library Manager (**Sketch → Include Library → Manage Libraries…**)
 - Search for **"Joystick"** by *Matthew Heironimus* and install
 
+Customization
+Invert Axis:
+Edit the INVERT[] array:
+
+cpp
+Copy
+Edit
+bool INVERT[6] = {false, false, false, false, false, false};
+Change Deadzone:
+
+cpp
+Copy
+Edit
+const uint16_t DEADZONE = 16;
+Change Axis Order:
+Modify AXIS_PINS[] mapping in the code.
+
+Add/Remove Buttons:
+Adjust the buttonPins[] array and NUM_BUTTONS definition.
+
+Known Issues
+Unused analog pins will produce random movement unless tied down or given pull-ups.
+
+Linux mapping order may differ from Windows — test and adjust AXIS_PINS[] / buttonPins[] as needed.
+
+HID mapping changes require unplug/replug after flashing.
+
 ### 2. Select Board & Port
 - **Tools → Board → Arduino Leonardo**
 - **Tools → Port → (your Leonardo)**
@@ -126,38 +162,5 @@ Select your Leonardo controller
 
 Move joysticks / press buttons to verify mapping
 
-Customization
-Invert Axis:
-Edit the INVERT[] array:
-
-cpp
-Copy
-Edit
-bool INVERT[6] = {false, false, false, false, false, false};
-Change Deadzone:
-
-cpp
-Copy
-Edit
-const uint16_t DEADZONE = 16;
-Change Axis Order:
-Modify AXIS_PINS[] mapping in the code.
-
-Add/Remove Buttons:
-Adjust the buttonPins[] array and NUM_BUTTONS definition.
-
-Known Issues
-Unused analog pins will produce random movement unless tied down or given pull-ups.
-
-Linux mapping order may differ from Windows — test and adjust AXIS_PINS[] / buttonPins[] as needed.
-
-HID mapping changes require unplug/replug after flashing.
-
-🛡️ License
-This project is licensed under the Evangelista's Electric Non-Commercial Open Source License (EENOSL). Please see LICENSE.txt for full terms.
 
 
-Credits
-Arduino Joystick Library by Matthew Heironimus
-
-Project wiring and HID mapping by [Your Name]
