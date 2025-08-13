@@ -136,17 +136,11 @@ Edit buttonPins[] and NUM_BUTTONS.
 CLI (jstest):
 
 ```
-bash
-Copy
-Edit
 sudo apt install joystick
 sudo modprobe joydev
 jstest /dev/input/js0
 GUI (jstest-gtk):
 
-bash
-Copy
-Edit
 sudo apt install jstest-gtk
 jstest-gtk
 Web Tester:
