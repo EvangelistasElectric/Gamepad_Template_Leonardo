@@ -107,7 +107,7 @@ Tools → Board → Arduino Leonardo
 Tools → Port → (Your Leonardo)
 
 3️⃣ Upload Code
-Open leonardo_hid.ino
+Open main.ino
 
 Verify & Upload
 
