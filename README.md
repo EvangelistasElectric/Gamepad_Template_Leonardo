@@ -135,6 +135,7 @@ Edit buttonPins[] and NUM_BUTTONS.
 🐧 Linux Testing
 CLI (jstest):
 
+```
 bash
 Copy
 Edit
@@ -150,7 +151,7 @@ sudo apt install jstest-gtk
 jstest-gtk
 Web Tester:
 https://gamepad-tester.com (Chrome/Firefox)
-
+```
 🪟 Windows Testing
 Press Win + R, type:
 
