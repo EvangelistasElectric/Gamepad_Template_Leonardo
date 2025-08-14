@@ -95,7 +95,7 @@ Please see **LICENSE.txt** for full terms.
 ## 💻 Software Setup
 
 ### 1️⃣ Install Arduino IDE & Joystick Library
-
+```
 # Arduino IDE download: https://www.arduino.cc/en/software
 In Arduino IDE → Sketch → Include Library → Manage Libraries
 
@@ -112,8 +112,8 @@ Open main.ino
 Verify & Upload
 
 Unplug/replug USB after first upload to enumerate HID
-
-🎛️ Customization
+```
+## 🎛️ Customization
 Invert Axis:
 
 bool INVERT[6] = {false, false, false, false, false, false};
