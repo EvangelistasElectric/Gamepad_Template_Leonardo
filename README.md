@@ -129,7 +129,7 @@ Edit AXIS_PINS[] in the code.
 Modify Button Count:
 Edit buttonPins[] and NUM_BUTTONS.
 
-🐧 Linux Testing
+## 🐧 Linux Testing
 CLI (jstest):
 
 ```
@@ -143,7 +143,7 @@ jstest-gtk
 Web Tester:
 https://gamepad-tester.com (Chrome/Firefox)
 ```
-🪟 Windows Testing
+## 🪟 Windows Testing
 ```
 Press Win + R, type:
 
@@ -154,7 +154,7 @@ Select your Leonardo controller
 Move joysticks / press buttons to verify mapping
 ```
 
-⚠️ Known Issues
+## ⚠️ Known Issues
 Floating analog pins cause random movement → tie to GND / wire connection per SCH_Arduino Leonardo Pins_2025-08-14.pdf or enable pull-up.
 
 Linux axis/button mapping order may differ from Windows.
