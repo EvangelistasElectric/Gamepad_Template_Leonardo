@@ -144,17 +144,18 @@ Web Tester:
 https://gamepad-tester.com (Chrome/Firefox)
 ```
 🪟 Windows Testing
+```
 Press Win + R, type:
 
-Copy
-Edit
 joy.cpl
+
 Select your Leonardo controller
 
 Move joysticks / press buttons to verify mapping
+```
 
 ⚠️ Known Issues
-Floating analog pins cause random movement → tie to GND or enable pull-up.
+Floating analog pins cause random movement → tie to GND / wire connection per SCH_Arduino Leonardo Pins_2025-08-14.pdf or enable pull-up.
 
 Linux axis/button mapping order may differ from Windows.
 
