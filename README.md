@@ -116,17 +116,14 @@ Unplug/replug USB after first upload to enumerate HID
 🎛️ Customization
 Invert Axis:
 
-cpp
-Copy
-Edit
 bool INVERT[6] = {false, false, false, false, false, false};
+
 Change Deadzone:
 
-cpp
-Copy
-Edit
 const uint16_t DEADZONE = 16;
+
 Change Axis Order:
+
 Edit AXIS_PINS[] in the code.
 
 Modify Button Count:
