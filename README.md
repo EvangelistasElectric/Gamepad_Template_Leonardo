@@ -93,9 +93,9 @@ Please see **LICENSE.txt** for full terms.
 ---
 
 ## 💻 Software Setup
-
-### 1️⃣ Install Arduino IDE & Joystick Library
 ```
+### 1️⃣ Install Arduino IDE & Joystick Library
+
 # Arduino IDE download: https://www.arduino.cc/en/software
 In Arduino IDE → Sketch → Include Library → Manage Libraries
 
