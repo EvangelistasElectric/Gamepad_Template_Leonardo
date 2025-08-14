@@ -4,6 +4,7 @@
    Author:  Matthew Evangelista (Evangelista's Electric)
    License: Evangelista's Electric Non-Commercial Open Source License (EENOSL)
    Date:    2025-08-13
+   Version: 1.0.1
   ================================================================
 
    Description:
